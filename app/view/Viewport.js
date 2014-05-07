@@ -1,7 +1,7 @@
 Ext.define('MVC.view.Viewport', {
 	extend: 'Ext.container.Viewport',
 	requires: ['MVC.view.department.List', 
-			   'MVC.view.user.List'
+			   'MVC.view.user.List',
 			  ],
 	layout: 'border',
 	config: {
